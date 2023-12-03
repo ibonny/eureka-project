@@ -25,4 +25,4 @@ build-gateway:
 	@./mvnw clean package -pl code/services/gateway-service
 
 run-gateway:
-	@java -jar code/services/gateway-service/target/cloud-gateway-service-0.0.1-SNAPSHOT.jar
+	@java -jar code/services/gateway-service/target/gateway-0.0.1-SNAPSHOT.jar
